@@ -1,7 +1,19 @@
-// disable internal keyboard
+// INTERNAL KEYBOARD
 
+
+// DISABLE
 sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/ 
 
-// disable trackpad
-
+// ENABLE
 sudo kextload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/ 
+
+
+
+// TRACKPAD
+
+
+// DISABLE
+sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTrackpad.kext
+
+//ENABLE
+sudo kextload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTrackpad.kext
